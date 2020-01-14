@@ -15,7 +15,7 @@ def tei_write(root, filepath):
 
 def build_tei_object(raw):
     verse = preprocess(raw)
-    metrics_analytics(verse, metrics)
+    metrics_analytics(verse, METRICS)
 
     # Following https://teibyexample.org/examples/TBED04v00.htm
     TEI = ET.Element("TEI")
@@ -32,7 +32,7 @@ def build_tei_object(raw):
     top_lg = ET.SubElement(body, "lg")
     top_lg.attrib = {
         "type": "poem",
-        "met": metrics,
+        "met": METRICS,
     }
     head = ET.SubElement(top_lg, "head")
     title = ET.SubElement(head, "title")

@@ -78,28 +78,28 @@ def preprocess(raw):
     return tokens, tones
 
 
-metrics = []
+METRICS = []
 
 # 五绝平起首句入韵
-metrics.append([
+METRICS.append([
     '1', '1', '1/0', '0', '1',
     '1/0', '0', '0', '1', '1',
     '1/0', '0', '1', '1', '0',
     '1', '1', '1/0', '0', '1'])
 # 五绝平起首句不入韵
-metrics.append([
+METRICS.append([
     '1/0', '1', '1', '0', '0',
     '1/0', '0', '0', '1', '1',
     '1/0', '0', '1', '1', '0',
     '1', '1', '1/0', '0', '1'])
 # 五绝仄起首句入韵
-metrics.append([
+METRICS.append([
     '1/0', '0', '0', '1', '1',
     '1', '1', '1/0', '0', '1',
     '1/0', '1', '1', '0', '0',
     '1/0', '0', '0', '1', '1'])
 # 五绝仄起首句不入韵
-metrics.append([
+METRICS.append([
     '1/0', '0', '1', '1', '0',
     '1', '1', '1/0', '0', '1',
     '1/0', '1', '1', '0', '0',
@@ -150,16 +150,16 @@ verse5 = preprocess(raw5)
 verse6 = preprocess(raw6)
 verse7 = preprocess(raw7)
 
-metrics_analytics(verse1, metrics)
+metrics_analytics(verse1, METRICS)
 
-metrics_analytics(verse2, metrics)
+metrics_analytics(verse2, METRICS)
 
-metrics_analytics(verse3, metrics)
+metrics_analytics(verse3, METRICS)
 
-metrics_analytics(verse4, metrics)
+metrics_analytics(verse4, METRICS)
 
-metrics_analytics(verse5, metrics)
+metrics_analytics(verse5, METRICS)
 
-metrics_analytics(verse6, metrics)
+metrics_analytics(verse6, METRICS)
 
-metrics_analytics(verse7, metrics)
+metrics_analytics(verse7, METRICS)
