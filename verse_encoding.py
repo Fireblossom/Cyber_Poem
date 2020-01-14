@@ -35,11 +35,11 @@ def flatten(l):
     return [item for sublist in l for item in sublist]
 
 
-with open("data/rhymebooks.json") as output:
+with open("cope/data/rhymebooks.json") as output:
     rhymes = json.load(output)
-with open("data/TC2SC.json") as output:
+with open("cope/data/TC2SC.json") as output:
     T2C = json.load(output)
-with open("data/kangxi.json") as output:
+with open("cope/data/kangxi.json") as output:
     Dict = json.load(output)
 
 print(Dict['煜'])
