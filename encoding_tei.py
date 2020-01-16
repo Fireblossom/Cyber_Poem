@@ -1,4 +1,4 @@
-from verse_encoding import *
+from verse_encoding import preprocess
 from xml.etree import ElementTree as ET
 from xml.dom import minidom
 
@@ -15,8 +15,9 @@ def xml_write(root, filepath):
 
 def build_tei_object(raw):
     verse = preprocess(raw)
-    metrics_analytics(verse, METRICS)
+    # metrics_analytics(verse, METRICS)
     met = []
+
 
     # Following https://teibyexample.org/examples/TBED04v00.htm
     TEI = ET.Element("TEI")
@@ -59,16 +60,9 @@ def build_tei_object(raw):
         "type": "poem",
         "met": met,
     }
-    text = ET.SubElement(TEI, "text")
-    body = ET.SubElement(text, "body")
-    top_lg = ET.SubElement(body, "lg")
-    top_lg.attrib = {
-        "type": "poem",
-        "met": METRICS,
-    }
+
     head = ET.SubElement(top_lg, "head")
     title = ET.SubElement(head, "title")
     # title.text = # 填诗名和作者进去
 
     return TEI
-
