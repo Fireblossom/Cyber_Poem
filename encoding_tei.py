@@ -1,6 +1,7 @@
 # encoding=utf-8
 import json
 import re
+from verse_encoding import preprocess, metrics_analytics, METRICS
 from xml.etree import ElementTree as ET
 from xml.dom import minidom
 
@@ -89,11 +90,12 @@ def xml_write(root, filepath):
     file.close()
 
 
-def build_tei_object():
-    # verse = preprocess(raw)
-    # metricsAnalytics(verse, metrics)
-
-    # Following https://teibyexample.org/examples/TBED04v00.htm
+def build_tei_object(raw):
+    """
+    :param raw: List of raw verses.
+    :return: TEI: ElementTree object.
+    """
+    #  Following https://teibyexample.org/examples/TBED04v00.htm
     TEI = ET.Element("TEI")
     TEI.attrib = {"xmlns": "http://www.tei-c.org/ns/1.0"}
 
@@ -111,8 +113,6 @@ def build_tei_object():
 
     encodingDesc = ET.SubElement(teiHeader, "encodingDesc")
     metDecl = ET.SubElement(encodingDesc, "metDecl")
-    encodingDesc = ET.SubElement(teiHeader, "encodingDesc")
-    metDecl = ET.SubElement(encodingDesc, "metDecl")
     metDecl.attrib = {"pattern": "((+|-)+\|?/?)*"}  # 填格律进去
     metSym = ET.SubElement(metDecl, "metSym")  # 平
     metSym.attrib = {"value": "+"}
@@ -120,6 +120,9 @@ def build_tei_object():
     metSym = ET.SubElement(metDecl, "metSym")  # 仄
     metSym.attrib = {"value": "-"}
     metSym.text = "metrical non-promimence"
+    metSym = ET.SubElement(metDecl, "metSym")  # 中
+    metSym.attrib = {"value": "~"}
+    metSym.text = "metrical promimence or non-promimence"
     metSym = ET.SubElement(metDecl, "metSym")  # 音部
     metSym.attrib = {"value": "｜"}
     metSym.text = "foot boundary"
@@ -143,5 +146,14 @@ def build_tei_object():
     xml_write(TEI,'output.xml')
     dom = minidom.parse('output.xml')  # or xml.dom.minidom.parseString(xml_string)
     print(dom.toprettyxml())
-
+    for raw_verse in raw:
+        verse = preprocess(raw_verse)
+        analysis = metrics_analytics(verse, METRICS)
+        text = ET.SubElement(TEI, "text")
+        body = ET.SubElement(text, "body")
+        top_lg = ET.SubElement(body, "lg")
+        top_lg.attrib = {"type": "poem"}
+        head = ET.SubElement(top_lg, "head")
+        title = ET.SubElement(head, "title")
+        title.text = analysis["title"] + "-" + analysis["author"]  # 填诗名和作者进去
     return TEI

@@ -117,7 +117,7 @@ def metrics_analytics(verse, metrics):
     else:
         print('仄起')
         metric = metrics[2:]
-
+    real = []
     for k, v in enumerate(RBOOK):
         if tokens[9] in v and tokens[19] in v:
             if tones[4] == '1':
@@ -135,11 +135,20 @@ def metrics_analytics(verse, metrics):
                     elif l1 != l2 and k % 5 != 0:
                         if l1 == '0':
                             print(tokens[k], "失配,建议：仄")
+                            real.append((tokens[k], '-', k))
                         else:
                             print(tokens[k], "失配,建议：平")
+                            real.append((tokens[k], '+', k))
                         count += 1
 
     print('失配词数', count)
+    return {
+        "metric": metric[num_metrics],
+        "count": count,
+        "real": real,
+        "title": 0,
+        "author": 0
+    }
 
 
 verse1 = preprocess(raw1)
