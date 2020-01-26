@@ -1,0 +1,90 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>格律诗三百首</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher> KANTL </publisher>
+        <pubPlace>Ghent</pubPlace>
+        <date when="2009"/>
+      </publicationStmt>
+      <sourceDesc>
+        <p>No source, born digital</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <!--...-->
+      <metDecl pattern="((+|-)+\|?/?)*">
+        <metSym value="+">metrical promimence</metSym>
+        <metSym value="-">metrical non-prominence</metSym>
+        <metSym value="|">foot boundary</metSym>
+        <metSym value="/">metrical line boundary</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Metrically prominent syllables are marked '+' and other syllables '-'. Foot divisions are marked by a vertical bar, and line divisions with a solidus.</p>
+        <p>This notation may be applied to any metrical unit, of any size (including, for example, individual feet as well as groups of lines).</p>
+        <p>The 'real' attribute has been used to indicate possible variations in the iambic base metre. Where this attribute is not included, it is assumed each foot inherits the iambic metre defined for the overall division of text.</p>
+        <p>The 'met' attribute has been used in feet which have a missing or additional syllable rather than the two syllables expected, although the line may still confirm to the metre of the poem.</p>
+      </metDecl>
+    </encodingDesc>
+
+  </teiHeader>
+  <text>
+    <body>
+      <lg>
+        <lg type="poem">
+          <head>
+            <title>登鹳雀楼</title>
+          </head>
+          <lg type="五言绝句仄起首句不入韵" rhyme="abcb">
+              <l  met="--++-/" rhyme = "a">白日依山<rhyme>尽</rhyme></l>
+              <l  met="++--+/" rhyme = "b">黄河入海<rhyme>流</rhyme></l>
+              <l  met="+++--/" real = "-++--" rhyme = "c">欲穷千里<rhyme>目</rhyme></l>
+              <l  met="---++/" rhyme = "b">更上一层<rhyme>楼</rhyme></l>
+          </lg>
+          <signed>王之涣</signed>
+        </lg>
+
+        <lg type="poem">
+          <head>
+            <title>哥舒歌</title>
+          </head>
+          <lg type="五言绝句仄起首句入韵" rhyme="aaba">
+              <l  met="---++/" rhyme = "a">北斗七星<rhyme>高</rhyme></l>
+              <l  met="++--+/" rhyme = "a">哥舒夜带刀<rhyme>刀</rhyme></l>
+              <l  met="+++--/" rhyme = "b">至今窥牧<rhyme>马</rhyme></l>
+              <l  met="---++/" rhyme = "a">不敢过临洮<rhyme>楼</rhyme></l>
+          </lg>
+          <signed>西鄙人</signed>
+        </lg>
+
+        <lg type="poem">
+          <head>
+            <title>静夜思</title>
+          </head>
+          <lg type="五言绝句平起首句入韵" rhyme="aaba">
+              <l  met="++--+" rhyme = "a">床前明月<rhyme>光</rhyme></l>
+              <l  met="---++/" rhyme = "a">疑是地上<rhyme>霜</rhyme></l>
+              <l  met="--++-/" rhyme = "b">举头望明<rhyme>月</rhyme></l>
+              <l  met="++--+/" rhyme = "a">低头思故<rhyme>乡</rhyme></l>
+          </lg>
+          <signed>李白</signed>
+        </lg>
+
+        <lg type="poem">
+          <head>
+            <title>听筝</title>
+          </head>
+          <lg type="五言绝句平起首句不入韵" rhyme="abcb">
+              <l  met="+++--" rhyme = "a">鸣筝金粟<rhyme>柱</rhyme></l>
+              <l  met="---++/" rhyme = "b">素手玉房前<rhyme>前</rhyme></l>
+              <l  met="--++-/" rhyme = "c">欲得周郎顾<rhyme>顾</rhyme></l>
+              <l  met="++--+/" rhyme = "b">时时误拂弦<rhyme>弦</rhyme></l>
+          </lg>
+          <signed>李端</signed>
+        </lg>
+      </lg>
+    </body>
+  </text>
+</TEI>
