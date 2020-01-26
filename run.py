@@ -62,6 +62,6 @@ verse8 = preprocess(raw8)
 
 # metricsAnalytics(verse8, metrics)
 
-build_tei_object()
+build_tei_object(raw1)
 
 print("hello")

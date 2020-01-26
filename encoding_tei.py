@@ -103,7 +103,7 @@ def build_tei_object(raw):
     fileDesc = ET.SubElement(teiHeader, "fileDesc")
     titleStmt = ET.SubElement(fileDesc, "titleStmt")
     top_title = ET.SubElement(titleStmt, "title")
-    top_title.text = "格律诗三（）百首"
+    top_title.text = "格律诗三百首"
     publicationStmt = ET.SubElement(fileDesc, "publicationStmt")
     top_p = ET.SubElement(publicationStmt, "p")
     top_p.text = "Text Technology"
@@ -141,11 +141,6 @@ def build_tei_object(raw):
     head = ET.SubElement(top_lg, "head")
     title = ET.SubElement(head, "title")
     # title.text = # 填诗名和作者进去
-    # tree = ET.ElementTree(TEI)
-    # tree.write('output.xml' )
-    xml_write(TEI,'output.xml')
-    dom = minidom.parse('output.xml')  # or xml.dom.minidom.parseString(xml_string)
-    print(dom.toprettyxml())
     for raw_verse in raw:
         verse = preprocess(raw_verse)
         analysis = metrics_analytics(verse, METRICS)
@@ -154,6 +149,12 @@ def build_tei_object(raw):
         top_lg = ET.SubElement(body, "lg")
         top_lg.attrib = {"type": "poem"}
         head = ET.SubElement(top_lg, "head")
-        title = ET.SubElement(head, "title")
-        title.text = analysis["title"] + "-" + analysis["author"]  # 填诗名和作者进去
+        # title = ET.SubElement(head, "title")
+        # title.text = analysis["title"] + "-" + analysis["author"]  # 填诗名和作者进去
+
+    # tree = ET.ElementTree(TEI)
+    # tree.write('output.xml' )
+    xml_write(TEI,'output.xml')
+    dom = minidom.parse('output.xml')  # or xml.dom.minidom.parseString(xml_string)
+    print(dom.toprettyxml())
     return TEI
