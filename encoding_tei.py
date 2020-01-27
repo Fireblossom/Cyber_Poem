@@ -1,7 +1,6 @@
 # encoding=utf-8
 import json
 import re
-from verse_encoding import preprocess, metrics_analytics, METRICS
 from xml.etree import ElementTree as ET
 from xml.dom import minidom
 
@@ -25,10 +24,15 @@ def load_data():
 
     return rhymes, T2C, Dict, metric_names, P_PING_unflattened, Z_PING_unflattened, P_PING, Z_PING
 
-def preprocess(raw):
+def preprocess(filename):
     _, _, _, _, _, _, P_PING, Z_PING = load_data()
-    clean = re.sub(r'[，。, .]', "", raw)
-    tokens = [token for token in clean if token]
+    with open(filename) as op:
+        lines = op.readlines()
+    lines = [re.sub(r'[，。, .]', "", line.strip()) for line in lines]
+    title = lines[0]
+    signed = lines[1]
+    verse = lines[2:]
+    tokens = [token for token in flatten(verse) if token]
     tones  = []
     for t in tokens:
         if t in P_PING:
@@ -38,46 +42,7 @@ def preprocess(raw):
                 tones.append('1')
         else:
             tones.append('0')
-    return tokens,tones
-
-
-def metricsAnalytics(verse, metrics):
-    _, _, _, metric_names, P_PING_unflattened, _, _, _ = load_data()
-    tokens, tones = verse
-    print('五绝')
-    count = 0
-    RBOOK = P_PING_unflattened
-    if tones[1] == '1':
-        print('平起')
-        metric = metrics[:2]
-    else:
-        print('仄起')
-        metric = metrics[2:]
-
-    for k, v in enumerate(RBOOK):
-        if tokens[9] in v and tokens[19] in v:
-            print("韵脚：", metric_names[k])
-            if tones[4] == '1':
-                num_metrics = 0
-                if tokens[4] in v:
-                    print('首句入韵')
-            else:
-                num_metrics = 1
-                print('首句仄收，不入韵, 首句白脚')
-
-                for k, (l1, l2) in enumerate(zip(tones, metric[num_metrics])):
-                    if l1 == '1/0':
-                        print("[检测到多音字", tokens[k], "]")
-                    elif l2 == '1/0':
-                        pass
-                    elif l1 != l2 and k % 5 != 0:
-                        if l1 == '0':
-                            print(tokens[k], "失配,建议：仄")
-                        else:
-                            print(tokens[k], "失配,建议：平")
-                        count += 1
-
-    print('失配词数', count)
+    return tokens,tones,title,signed,verse
 
 def xml_write(root, filepath):
     rough_string = ET.tostring(root, 'utf-8')
@@ -90,11 +55,69 @@ def xml_write(root, filepath):
     file.close()
 
 
-def build_tei_object(raw):
+def metricsAnalytics(tokens, tones, metrics):
+    _, _, _, metric_names, P_PING_unflattened, _, _, _ = load_data()
+    #     tokenstonees = verse
+    met_type = ""
+    met_type += '五绝'
+    count = 0
+    met = []
+    met_real = []
+    RBOOK = P_PING_unflattened
+    if tones[1] == '1':
+        met_type += '平起'
+        metric = metrics[:2]
+    else:
+        met_type += '仄起'
+        metric = metrics[2:]
+
+    for k, v in enumerate(RBOOK):
+        if tokens[9] in v and tokens[19] in v:
+            if tones[4] == '1':
+                num_metrics = 0
+                met_type += '首句入韵'
+                rhyme = "aaba"
+            else:
+                num_metrics = 1
+                met_type += '首句不入韵'
+                rhyme = "abcb"
+
+            for k, (l1, l2) in enumerate(zip(tones, metric[num_metrics])):
+                #                     met = metric[num_metrics]
+                if l1 == '1/0':
+                    pass
+                #               print("[检测到多音字",tokens[k],"]")
+                elif l2 == '1/0':
+                    pass
+                elif l1 != l2 and k % 5 != 0:
+                    if l1 == '0':
+                        pass
+                    #                         print(tokens[k],"失配,建议：仄")
+                    else:
+                        pass
+                    #                         print(tokens[k],"失配,建议：平")
+                    count += 1
+
+    for m in metric[num_metrics]:
+        if m == '1':
+            met.append('+')
+        else:
+            met.append('-')
+
+    for k, v in enumerate(tones):
+        if v == metric[num_metrics][k] or v == '1/0':
+            met_real.append(met[k])
+        else:
+            met_real.append('+' if v == '1' else '-')
+    return met_type, met, met_real, rhyme
+
+
+def build_tei_object(filenames, metrics):
     """
     :param raw: List of raw verses.
     :return: TEI: ElementTree object.
     """
+
     #  Following https://teibyexample.org/examples/TBED04v00.htm
     TEI = ET.Element("TEI")
     TEI.attrib = {"xmlns": "http://www.tei-c.org/ns/1.0"}
@@ -133,28 +156,52 @@ def build_tei_object(raw):
     text = ET.SubElement(TEI, "text")
     body = ET.SubElement(text, "body")
     top_lg = ET.SubElement(body, "lg")
-    top_lg.attrib = {
-        "type": "poem",
-        "met": "met",
-    }
 
-    head = ET.SubElement(top_lg, "head")
-    title = ET.SubElement(head, "title")
-    # title.text = # 填诗名和作者进去
-    for raw_verse in raw:
-        verse = preprocess(raw_verse)
-        analysis = metrics_analytics(verse, METRICS)
-        text = ET.SubElement(TEI, "text")
-        body = ET.SubElement(text, "body")
-        top_lg = ET.SubElement(body, "lg")
-        top_lg.attrib = {"type": "poem"}
-        head = ET.SubElement(top_lg, "head")
-        # title = ET.SubElement(head, "title")
-        # title.text = analysis["title"] + "-" + analysis["author"]  # 填诗名和作者进去
+    for fn in filenames:
+        lg = ET.SubElement(top_lg, "lg")
+        lg.attrib = {
+            "type": "poem",
+        }
+        Tokens, Tones, Title, Signed, Verse = preprocess(fn)
+        Met_type, Met, Met_real, Rhyme = metricsAnalytics(Tokens, Tones, metrics)
+        head = ET.SubElement(lg, "head")
+        title = ET.SubElement(head, "title")
+        title.text = Title
+        llg = ET.SubElement(lg, "lg")
+        llg.attrib = {
+            "type": Met_type,
+            "rhyme": Rhyme
+        }
+        for i, line in enumerate(Verse):
+            l = ET.SubElement(llg, "l")
+            met = Met[0 + 5 * i:5 + 5 * i]
+            real_met = Met_real[0 + 5 * i:5 + 5 * i]
+            if met != real_met:
+                l.attrib = {
+                    "met": ''.join(met),
+                    "real": ''.join(real_met),
+                    "rhyme": Rhyme[i]
+                }
+            else:
+                l.attrib = {
+                    "met": ''.join(met),
+                    "rhyme": Rhyme[i]
+                }
 
-    # tree = ET.ElementTree(TEI)
-    # tree.write('output.xml' )
-    xml_write(TEI,'output.xml')
-    dom = minidom.parse('output.xml')  # or xml.dom.minidom.parseString(xml_string)
-    print(dom.toprettyxml())
+            l.text = line[:-1]
+            rrhyme = ET.SubElement(l, "rhyme")
+            rrhyme.text = line[-1]
+
+        signed = ET.SubElement(lg, "signed")
+        signed.text = Signed
+
+    rough_string = ET.tostring(TEI, 'utf-8')
+    reparsed = minidom.parseString(rough_string)
+    #     mydata = ET.tostring(data)
+    #     myfile = open("items2.xml", "w")
+    #     myfile.write(mydata)
+    with open('output.xml', "w") as output:
+        output.write(reparsed.toprettyxml(indent="\t"))
+    print(reparsed.toprettyxml(indent="\t"))
+
     return TEI

@@ -38,7 +38,7 @@
 							黄河入海
 							<rhyme>流</rhyme>
 						</l>
-						<l met="+++--" real="-++--" rhyme="c">
+						<l met="-++--" rhyme="c">
 							欲穷千里
 							<rhyme>目</rhyme>
 						</l>
@@ -62,7 +62,7 @@
 							春风花草
 							<rhyme>香</rhyme>
 						</l>
-						<l met="+++--" rhyme="c">
+						<l met="-++--" rhyme="c">
 							泥融飞燕
 							<rhyme>子</rhyme>
 						</l>
@@ -78,7 +78,7 @@
 						<title>听筝</title>
 					</head>
 					<lg rhyme="abcb" type="五绝平起首句不入韵">
-						<l met="+++--" rhyme="a">
+						<l met="-++--" real="+++--" rhyme="a">
 							鸣筝金粟
 							<rhyme>柱</rhyme>
 						</l>
@@ -134,7 +134,7 @@
 							哥舒夜带
 							<rhyme>刀</rhyme>
 						</l>
-						<l met="+++--" real="-++--" rhyme="b">
+						<l met="-++--" rhyme="b">
 							至今窥牧
 							<rhyme>马</rhyme>
 						</l>
@@ -150,7 +150,7 @@
 						<title>赋得古原草送别</title>
 					</head>
 					<lg rhyme="abcb" type="五绝平起首句不入韵">
-						<l met="+++--" rhyme="a">
+						<l met="-++--" real="+++--" rhyme="a">
 							离离原上
 							<rhyme>草</rhyme>
 						</l>
@@ -174,7 +174,7 @@
 						<title>弹琴</title>
 					</head>
 					<lg rhyme="abcb" type="五绝平起首句不入韵">
-						<l met="+++--" real="++-+-" rhyme="a">
+						<l met="-++--" real="++-+-" rhyme="a">
 							泠泠七弦
 							<rhyme>上</rhyme>
 						</l>
