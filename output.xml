@@ -3,22 +3,19 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>格律诗三百首</title>
+				<title>格律诗</title>
 			</titleStmt>
 			<publicationStmt>
 				<p>Text Technology</p>
 			</publicationStmt>
 			<sourceDesc>
-				<p>Wiki</p>
+				<p>-DFW-</p>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
-			<metDecl pattern="((+|-)+\|?/?)*">
+			<metDecl pattern="(\+|\-)+">
 				<metSym value="+">metrical promimence</metSym>
 				<metSym value="-">metrical non-promimence</metSym>
-				<metSym value="~">metrical promimence or non-promimence</metSym>
-				<metSym value="｜">foot boundary</metSym>
-				<metSym value="/">metrical line boundary</metSym>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
