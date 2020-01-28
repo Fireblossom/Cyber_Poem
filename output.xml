@@ -24,6 +24,198 @@
 			<lg>
 				<lg type="poem">
 					<head>
+						<title>秋夜喜遇王处士</title>
+					</head>
+					<lg rhyme="abcb" type="五绝平起首句不入韵">
+						<l met="+++--" real="-++--" rhyme="a">
+							北场芸藿
+							<rhyme>罢</rhyme>
+						</l>
+						<l met="---++" real="++--+" rhyme="b">
+							东皋刈黍
+							<rhyme>归</rhyme>
+						</l>
+						<l met="--++-" real="-++--" rhyme="c">
+							相逢秋月
+							<rhyme>满</rhyme>
+						</l>
+						<l met="++--+" real="+--++" rhyme="b">
+							更值夜萤
+							<rhyme>飞</rhyme>
+						</l>
+					</lg>
+					<signed>王绩</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>入朝洛堤步月</title>
+					</head>
+					<lg rhyme="aaba" type="五绝仄起首句入韵">
+						<l met="---++" rhyme="a">
+							脉脉广川
+							<rhyme>流</rhyme>
+						</l>
+						<l met="++--+" real="+---+" rhyme="a">
+							驱马历长
+							<rhyme>洲</rhyme>
+						</l>
+						<l met="+++--" real="-++--" rhyme="b">
+							鹊飞山月
+							<rhyme>曙</rhyme>
+						</l>
+						<l met="---++" real="+--++" rhyme="a">
+							蝉噪野风
+							<rhyme>秋</rhyme>
+						</l>
+					</lg>
+					<signed>上官仪</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>于易水送人</title>
+					</head>
+					<lg rhyme="aaba" type="五绝仄起首句入韵">
+						<l met="---++" rhyme="a">
+							此地别燕
+							<rhyme>丹</rhyme>
+						</l>
+						<l met="++--+" real="---++" rhyme="a">
+							壮士发冲
+							<rhyme>冠</rhyme>
+						</l>
+						<l met="+++--" real="-++--" rhyme="b">
+							昔时人已
+							<rhyme>没</rhyme>
+						</l>
+						<l met="---++" real="+--++" rhyme="a">
+							今日水犹
+							<rhyme>寒</rhyme>
+						</l>
+					</lg>
+					<signed>骆宾王</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>山中</title>
+					</head>
+					<lg rhyme="abcb" type="五绝平起首句不入韵">
+						<l met="+++--" rhyme="a">
+							长江悲已
+							<rhyme>滞</rhyme>
+						</l>
+						<l met="---++" rhyme="b">
+							万里念将
+							<rhyme>归</rhyme>
+						</l>
+						<l met="--++-" rhyme="c">
+							况属高风
+							<rhyme>晚</rhyme>
+						</l>
+						<l met="++--+" real="+++-+" rhyme="b">
+							山山黄叶
+							<rhyme>飞</rhyme>
+						</l>
+					</lg>
+					<signed>王勃</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>渡汉江</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" rhyme="a">
+							岭外音书
+							<rhyme>绝</rhyme>
+						</l>
+						<l met="++--+" rhyme="b">
+							经冬复历
+							<rhyme>春</rhyme>
+						</l>
+						<l met="+++--" real="-++--" rhyme="c">
+							近乡情更
+							<rhyme>怯</rhyme>
+						</l>
+						<l met="---++" rhyme="b">
+							不敢问来
+							<rhyme>人</rhyme>
+						</l>
+					</lg>
+					<signed>宋之问</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>闺怨</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" rhyme="a">
+							雁尽书难
+							<rhyme>寄</rhyme>
+						</l>
+						<l met="++--+" rhyme="b">
+							愁多梦不
+							<rhyme>成</rhyme>
+						</l>
+						<l met="+++--" real="-++--" rhyme="c">
+							愿随孤月
+							<rhyme>影</rhyme>
+						</l>
+						<l met="---++" real="+--++" rhyme="b">
+							流照伏波
+							<rhyme>营</rhyme>
+						</l>
+					</lg>
+					<signed>沈如筠</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>蜀道后期</title>
+					</head>
+					<lg rhyme="abcb" type="五绝平起首句不入韵">
+						<l met="+++--" real="-++--" rhyme="a">
+							客心争日
+							<rhyme>月</rhyme>
+						</l>
+						<l met="---++" real="+--++" rhyme="b">
+							来往预期
+							<rhyme>程</rhyme>
+						</l>
+						<l met="--++-" real="++++-" rhyme="c">
+							秋风不相
+							<rhyme>待</rhyme>
+						</l>
+						<l met="++--+" real="+--++" rhyme="b">
+							先至洛阳
+							<rhyme>城</rhyme>
+						</l>
+					</lg>
+					<signed>张说</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>汾上惊秋</title>
+					</head>
+					<lg rhyme="aaba" type="五绝平起首句入韵">
+						<l met="++--+" real="-+--+" rhyme="a">
+							北风吹白
+							<rhyme>云</rhyme>
+						</l>
+						<l met="---++" rhyme="a">
+							万里渡河
+							<rhyme>汾</rhyme>
+						</l>
+						<l met="--++-" real="+-++-" rhyme="b">
+							心绪逢摇
+							<rhyme>落</rhyme>
+						</l>
+						<l met="++--+" rhyme="a">
+							秋声不可
+							<rhyme>闻</rhyme>
+						</l>
+					</lg>
+					<signed>苏頲</signed>
+				</lg>
+				<lg type="poem">
+					<head>
 						<title>登鹳雀楼</title>
 					</head>
 					<lg rhyme="abcb" type="五绝仄起首句不入韵">
@@ -48,127 +240,439 @@
 				</lg>
 				<lg type="poem">
 					<head>
-						<title>绝句·迟日江山丽</title>
-					</head>
-					<lg rhyme="abcb" type="五绝仄起首句不入韵">
-						<l met="--++-" real="+-++-" rhyme="a">
-							迟日江山
-							<rhyme>丽</rhyme>
-						</l>
-						<l met="++--+" real="+++-+" rhyme="b">
-							春风花草
-							<rhyme>香</rhyme>
-						</l>
-						<l met="+++--" rhyme="c">
-							泥融飞燕
-							<rhyme>子</rhyme>
-						</l>
-						<l met="---++" real="+--++" rhyme="b">
-							沙暖睡鸳
-							<rhyme>鸯</rhyme>
-						</l>
-					</lg>
-					<signed>杜甫</signed>
-				</lg>
-				<lg type="poem">
-					<head>
-						<title>听筝</title>
+						<title>宿建德江</title>
 					</head>
 					<lg rhyme="abcb" type="五绝平起首句不入韵">
-						<l met="+++--" rhyme="a">
-							鸣筝金粟
-							<rhyme>柱</rhyme>
+						<l met="+++--" real="++-+-" rhyme="a">
+							移舟泊烟
+							<rhyme>渚</rhyme>
 						</l>
 						<l met="---++" rhyme="b">
-							素手玉房
-							<rhyme>前</rhyme>
-						</l>
-						<l met="--++-" rhyme="c">
-							欲得周郎
-							<rhyme>顾</rhyme>
-						</l>
-						<l met="++--+" rhyme="b">
-							时时误拂
-							<rhyme>弦</rhyme>
-						</l>
-					</lg>
-					<signed>李端</signed>
-				</lg>
-				<lg type="poem">
-					<head>
-						<title>闺人赠远</title>
-					</head>
-					<lg rhyme="aaba" type="五绝平起首句入韵">
-						<l met="++--+" rhyme="a">
-							花明绮陌
-							<rhyme>春</rhyme>
-						</l>
-						<l met="---++" rhyme="a">
-							柳拂御沟
+							日暮客愁
 							<rhyme>新</rhyme>
 						</l>
-						<l met="--++-" rhyme="b">
-							为报辽阳
-							<rhyme>客</rhyme>
+						<l met="--++-" rhyme="c">
+							野旷天低
+							<rhyme>树</rhyme>
 						</l>
-						<l met="++--+" rhyme="a">
-							流芳不待
+						<l met="++--+" rhyme="b">
+							江清月近
 							<rhyme>人</rhyme>
 						</l>
 					</lg>
-					<signed>王涯</signed>
+					<signed>孟浩然</signed>
 				</lg>
 				<lg type="poem">
 					<head>
-						<title>哥舒歌</title>
-					</head>
-					<lg rhyme="aaba" type="五绝仄起首句入韵">
-						<l met="---++" rhyme="a">
-							北斗七星
-							<rhyme>高</rhyme>
-						</l>
-						<l met="++--+" rhyme="a">
-							哥舒夜带
-							<rhyme>刀</rhyme>
-						</l>
-						<l met="+++--" real="-++--" rhyme="b">
-							至今窥牧
-							<rhyme>马</rhyme>
-						</l>
-						<l met="---++" rhyme="a">
-							不敢过临
-							<rhyme>洮</rhyme>
-						</l>
-					</lg>
-					<signed>西鄙人</signed>
-				</lg>
-				<lg type="poem">
-					<head>
-						<title>赋得古原草送别</title>
+						<title>终南望馀雪</title>
 					</head>
 					<lg rhyme="abcb" type="五绝平起首句不入韵">
 						<l met="+++--" rhyme="a">
-							离离原上
-							<rhyme>草</rhyme>
+							终南阴岭
+							<rhyme>秀</rhyme>
 						</l>
-						<l met="---++" rhyme="b">
-							一岁一枯
-							<rhyme>荣</rhyme>
+						<l met="---++" real="--+++" rhyme="b">
+							积雪浮云
+							<rhyme>端</rhyme>
 						</l>
-						<l met="--++-" rhyme="c">
-							野火烧不
-							<rhyme>尽</rhyme>
+						<l met="--++-" real="+-+--" rhyme="c">
+							林表明霁
+							<rhyme>色</rhyme>
 						</l>
-						<l met="++--+" rhyme="b">
-							春风吹又
-							<rhyme>生</rhyme>
+						<l met="++--+" real="+++-+" rhyme="b">
+							城中增暮
+							<rhyme>寒</rhyme>
 						</l>
 					</lg>
-					<signed>白居易</signed>
+					<signed>祖咏</signed>
 				</lg>
 				<lg type="poem">
 					<head>
-						<title>弹琴</title>
+						<title>孟城坳</title>
+					</head>
+					<lg rhyme="abcb" type="五绝平起首句不入韵">
+						<l met="+++--" real="++-+-" rhyme="a">
+							新家孟城
+							<rhyme>口</rhyme>
+						</l>
+						<l met="---++" real="--++-" rhyme="b">
+							古木余衰
+							<rhyme>柳</rhyme>
+						</l>
+						<l met="--++-" real="+--++" rhyme="c">
+							来者复为
+							<rhyme>谁</rhyme>
+						</l>
+						<l met="++--+" real="++-+-" rhyme="b">
+							空悲昔人
+							<rhyme>有</rhyme>
+						</l>
+					</lg>
+					<signed>王维</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>辛夷坞</title>
+					</head>
+					<lg rhyme="aaba" type="五绝仄起首句入韵">
+						<l met="---++" real="--+++" rhyme="a">
+							木末芙蓉
+							<rhyme>花</rhyme>
+						</l>
+						<l met="++--+" real="++-+-" rhyme="a">
+							山中发红
+							<rhyme>萼</rhyme>
+						</l>
+						<l met="+++--" real="---++" rhyme="b">
+							涧户寂无
+							<rhyme>人</rhyme>
+						</l>
+						<l met="---++" real="+++--" rhyme="a">
+							纷纷开且
+							<rhyme>落</rhyme>
+						</l>
+					</lg>
+					<signed>王维</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>栾家濑</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" real="--+--" rhyme="a">
+							飒飒秋雨
+							<rhyme>中</rhyme>
+						</l>
+						<l met="++--+" real="-----" rhyme="b">
+							浅浅石溜
+							<rhyme>泻</rhyme>
+						</l>
+						<l met="+++--" real="-+---" rhyme="c">
+							跳波自相
+							<rhyme>溅</rhyme>
+						</l>
+						<l met="---++" real="--+--" rhyme="b">
+							白鹭惊复
+							<rhyme>下</rhyme>
+						</l>
+					</lg>
+					<signed>王维</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>木兰柴</title>
+					</head>
+					<lg rhyme="aaba" type="五绝平起首句入韵">
+						<l met="++--+" real="++-++" rhyme="a">
+							秋山敛余
+							<rhyme>晖</rhyme>
+						</l>
+						<l met="---++" real="+--+-" rhyme="a">
+							飞鸟逐前
+							<rhyme>侣</rhyme>
+						</l>
+						<l met="--++-" real="--+++" rhyme="b">
+							彩翠时分
+							<rhyme>明</rhyme>
+						</l>
+						<l met="++--+" real="-++--" rhyme="a">
+							夕岚无处
+							<rhyme>所</rhyme>
+						</l>
+					</lg>
+					<signed>王维</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>漆园</title>
+					</head>
+					<lg rhyme="abcb" type="五绝平起首句不入韵">
+						<l met="+++--" real="-++--" rhyme="a">
+							古人非傲
+							<rhyme>吏</rhyme>
+						</l>
+						<l met="---++" real="--+--" rhyme="b">
+							自阙经世
+							<rhyme>务</rhyme>
+						</l>
+						<l met="--++-" real="---++" rhyme="c">
+							偶寄一微
+							<rhyme>官</rhyme>
+						</l>
+						<l met="++--+" real="++-+-" rhyme="b">
+							婆娑数株
+							<rhyme>树</rhyme>
+						</l>
+					</lg>
+					<signed>王维</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>鹿砦</title>
+					</head>
+					<lg rhyme="aaba" type="五绝平起首句入韵">
+						<l met="++--+" rhyme="a">
+							空山不见
+							<rhyme>人</rhyme>
+						</l>
+						<l met="---++" real="--+--" rhyme="a">
+							但闻人语
+							<rhyme>响</rhyme>
+						</l>
+						<l met="--++-" real="---++" rhyme="b">
+							返景入深
+							<rhyme>林</rhyme>
+						</l>
+						<l met="++--+" real="--++-" rhyme="a">
+							复照青苔
+							<rhyme>上</rhyme>
+						</l>
+					</lg>
+					<signed>王维</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>柳浪</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" real="-----" rhyme="a">
+							分行接绮
+							<rhyme>树</rhyme>
+						</l>
+						<l met="++--+" real="---++" rhyme="b">
+							倒影入清
+							<rhyme>漪</rhyme>
+						</l>
+						<l met="+++--" real="+--+-" rhyme="c">
+							不学御沟
+							<rhyme>上</rhyme>
+						</l>
+						<l met="---++" real="+++-+" rhyme="b">
+							春风伤别
+							<rhyme>离</rhyme>
+						</l>
+					</lg>
+					<signed>王维</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>鸟鸣涧</title>
+					</head>
+					<lg rhyme="abcb" type="五绝平起首句不入韵">
+						<l met="+++--" real="++-+-" rhyme="a">
+							人闲桂花
+							<rhyme>落</rhyme>
+						</l>
+						<l met="---++" real="--+++" rhyme="b">
+							夜静春山
+							<rhyme>空</rhyme>
+						</l>
+						<l met="--++-" rhyme="c">
+							月出惊山
+							<rhyme>鸟</rhyme>
+						</l>
+						<l met="++--+" real="+++-+" rhyme="b">
+							时鸣春涧
+							<rhyme>中</rhyme>
+						</l>
+					</lg>
+					<signed>王维</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>相思</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" real="+-++-" rhyme="a">
+							红豆生南
+							<rhyme>国</rhyme>
+						</l>
+						<l met="++--+" rhyme="b">
+							春来发几
+							<rhyme>支</rhyme>
+						</l>
+						<l met="+++--" real="-++--" rhyme="c">
+							愿君多采
+							<rhyme>撷</rhyme>
+						</l>
+						<l met="---++" rhyme="b">
+							此物最相
+							<rhyme>思</rhyme>
+						</l>
+					</lg>
+					<signed>王维</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>静夜思</title>
+					</head>
+					<lg rhyme="aaba" type="五绝平起首句入韵">
+						<l met="++--+" real="+++-+" rhyme="a">
+							床前明月
+							<rhyme>光</rhyme>
+						</l>
+						<l met="---++" real="+---+" rhyme="a">
+							疑是地上
+							<rhyme>霜</rhyme>
+						</l>
+						<l met="--++-" real="-+++-" rhyme="b">
+							举头望明
+							<rhyme>月</rhyme>
+						</l>
+						<l met="++--+" rhyme="a">
+							低头思故
+							<rhyme>乡</rhyme>
+						</l>
+					</lg>
+					<signed>李白</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>陪侍郎叔游洞庭醉后三首</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" rhyme="a">
+							铲却君山
+							<rhyme>好</rhyme>
+						</l>
+						<l met="++--+" real="+++-+" rhyme="b">
+							平铺湘水
+							<rhyme>流</rhyme>
+						</l>
+						<l met="+++--" rhyme="c">
+							巴陵无限
+							<rhyme>酒</rhyme>
+						</l>
+						<l met="---++" rhyme="b">
+							醉杀洞庭
+							<rhyme>秋</rhyme>
+						</l>
+					</lg>
+					<signed>李白</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>独坐敬亭山</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" rhyme="a">
+							众鸟高飞
+							<rhyme>尽</rhyme>
+						</l>
+						<l met="++--+" rhyme="b">
+							孤云独去
+							<rhyme>闲</rhyme>
+						</l>
+						<l met="+++--" real="++---" rhyme="c">
+							相看两不
+							<rhyme>厌</rhyme>
+						</l>
+						<l met="---++" rhyme="b">
+							只有敬亭
+							<rhyme>山</rhyme>
+						</l>
+					</lg>
+					<signed>李白</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>劳劳亭</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" real="+-++-" rhyme="a">
+							天下伤心
+							<rhyme>处</rhyme>
+						</l>
+						<l met="++--+" rhyme="b">
+							劳劳送客
+							<rhyme>亭</rhyme>
+						</l>
+						<l met="+++--" rhyme="c">
+							春风知别
+							<rhyme>苦</rhyme>
+						</l>
+						<l met="---++" rhyme="b">
+							不遣柳条
+							<rhyme>青</rhyme>
+						</l>
+					</lg>
+					<signed>李白</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>小长干曲</title>
+					</head>
+					<lg rhyme="aaba" type="五绝仄起首句入韵">
+						<l met="---++" rhyme="a">
+							月暗送湖
+							<rhyme>风</rhyme>
+						</l>
+						<l met="++--+" rhyme="a">
+							相寻路不
+							<rhyme>通</rhyme>
+						</l>
+						<l met="+++--" real="++---" rhyme="b">
+							菱歌唱不
+							<rhyme>彻</rhyme>
+						</l>
+						<l met="---++" real="+--++" rhyme="a">
+							知在此塘
+							<rhyme>中</rhyme>
+						</l>
+					</lg>
+					<signed>崔国辅</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>江南曲</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" rhyme="a">
+							日暮长江
+							<rhyme>里</rhyme>
+						</l>
+						<l met="++--+" real="+++-+" rhyme="b">
+							相邀归渡
+							<rhyme>头</rhyme>
+						</l>
+						<l met="+++--" real="-++--" rhyme="c">
+							落花如有
+							<rhyme>意</rhyme>
+						</l>
+						<l met="---++" real="+--++" rhyme="b">
+							来去逐轻
+							<rhyme>舟</rhyme>
+						</l>
+					</lg>
+					<signed>储光义</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>逢雪宿芙蓉山主人</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" rhyme="a">
+							日暮苍山
+							<rhyme>远</rhyme>
+						</l>
+						<l met="++--+" rhyme="b">
+							天寒白屋
+							<rhyme>贫</rhyme>
+						</l>
+						<l met="+++--" rhyme="c">
+							柴门闻犬
+							<rhyme>吠</rhyme>
+						</l>
+						<l met="---++" real="+--++" rhyme="b">
+							风雪夜归
+							<rhyme>人</rhyme>
+						</l>
+					</lg>
+					<signed>刘长卿</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>听弹琴</title>
 					</head>
 					<lg rhyme="abcb" type="五绝平起首句不入韵">
 						<l met="+++--" real="++-+-" rhyme="a">
@@ -192,83 +696,459 @@
 				</lg>
 				<lg type="poem">
 					<head>
-						<title>寄赠王十将军承俊</title>
+						<title>送灵澈上人</title>
 					</head>
-					<lg rhyme="aabababa" type="五律平起首句入韵">
-						<l met="++--+" rhyme="a">
-							将军胆气
-							<rhyme>雄</rhyme>
+					<lg rhyme="abcb" type="五绝平起首句不入韵">
+						<l met="+++--" real="++-+-" rhyme="a">
+							苍苍竹林
+							<rhyme>寺</rhyme>
 						</l>
-						<l met="---++" real="-+--+" rhyme="a">
-							臂悬两角
-							<rhyme>弓</rhyme>
+						<l met="---++" real="--++-" rhyme="b">
+							杳杳钟声
+							<rhyme>晚</rhyme>
 						</l>
-						<l met="--++-" real="+-++-" rhyme="b">
-							缠结青骢
-							<rhyme>马</rhyme>
+						<l met="--++-" real="----+" rhyme="c">
+							荷笠带夕
+							<rhyme>阳</rhyme>
 						</l>
-						<l met="++--+" real="---++" rhyme="a">
-							出入锦城
-							<rhyme>中</rhyme>
+						<l met="++--+" real="++-+-" rhyme="b">
+							青山独归
+							<rhyme>远</rhyme>
 						</l>
-						<l met="+++--" real="++---" rhyme="b">
-							时危未授
-							<rhyme>钺</rhyme>
+					</lg>
+					<signed>刘长卿</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>绝句二首其一</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" real="+-++-" rhyme="a">
+							迟日江山
+							<rhyme>丽</rhyme>
 						</l>
-						<l met="---++" rhyme="a">
-							势屈难为
-							<rhyme>功</rhyme>
+						<l met="++--+" real="+++-+" rhyme="b">
+							春风花草
+							<rhyme>香</rhyme>
 						</l>
-						<l met="--++-" real="+--+-" rhyme="b">
-							宾客满堂
-							<rhyme>上</rhyme>
+						<l met="+++--" rhyme="c">
+							泥融飞燕
+							<rhyme>子</rhyme>
 						</l>
-						<l met="++--+" real="+++-+" rhyme="a">
-							何人高义
-							<rhyme>同</rhyme>
+						<l met="---++" real="+--++" rhyme="b">
+							沙暖睡鸳
+							<rhyme>鸯</rhyme>
 						</l>
 					</lg>
 					<signed>杜甫</signed>
 				</lg>
 				<lg type="poem">
 					<head>
-						<title>七律长征</title>
+						<title>八阵图</title>
 					</head>
-					<lg rhyme="abcbabcb" type="七律平起首句不入韵">
-						<l met="++--++-" real="++---+-" rhyme="a">
-							红军不怕远征
-							<rhyme>难</rhyme>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" real="+-++-" rhyme="a">
+							功盖三分
+							<rhyme>国</rhyme>
 						</l>
-						<l met="--++--+" rhyme="b">
-							万水千山只等
-							<rhyme>闲</rhyme>
+						<l met="++--+" rhyme="b">
+							名成八阵
+							<rhyme>图</rhyme>
 						</l>
-						<l met="--+++--" real="--+-+--" rhyme="c">
-							五岭逶迤腾细
-							<rhyme>浪</rhyme>
+						<l met="+++--" real="++---" rhyme="c">
+							江流石不
+							<rhyme>转</rhyme>
 						</l>
-						<l met="++---++" real="+++--++" rhyme="b">
-							乌蒙磅礴走泥
-							<rhyme>丸</rhyme>
-						</l>
-						<l met="++--++-" rhyme="a">
-							金沙水拍云崖
-							<rhyme>暖</rhyme>
-						</l>
-						<l met="--++--+" rhyme="b">
-							大渡桥横铁索
-							<rhyme>寒</rhyme>
-						</l>
-						<l met="--+++--" rhyme="c">
-							更喜岷山千里
-							<rhyme>雪</rhyme>
-						</l>
-						<l met="++---++" rhyme="b">
-							三军过后尽开
-							<rhyme>颜</rhyme>
+						<l met="---++" rhyme="b">
+							遗恨失吞
+							<rhyme>吴</rhyme>
 						</l>
 					</lg>
-					<signed>毛泽东</signed>
+					<signed>杜甫</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>华子岗</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" rhyme="a">
+							日落松风
+							<rhyme>起</rhyme>
+						</l>
+						<l met="++--+" rhyme="b">
+							还家草露
+							<rhyme>晞</rhyme>
+						</l>
+						<l met="+++--" rhyme="c">
+							云光侵履
+							<rhyme>迹</rhyme>
+						</l>
+						<l met="---++" real="+--++" rhyme="b">
+							山翠拂人
+							<rhyme>衣</rhyme>
+						</l>
+					</lg>
+					<signed>裴迪</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>题红叶</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" real="+-+--" rhyme="a">
+							流水何太
+							<rhyme>急</rhyme>
+						</l>
+						<l met="++--+" rhyme="b">
+							深宫尽日
+							<rhyme>闲</rhyme>
+						</l>
+						<l met="+++--" real="++-+-" rhyme="c">
+							殷勤谢红
+							<rhyme>叶</rhyme>
+						</l>
+						<l met="---++" rhyme="b">
+							好去到人
+							<rhyme>间</rhyme>
+						</l>
+					</lg>
+					<signed>韩氏</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>塞下曲六首其二</title>
+					</head>
+					<lg rhyme="aaba" type="五绝仄起首句入韵">
+						<l met="---++" real="+--++" rhyme="a">
+							林暗草惊
+							<rhyme>风</rhyme>
+						</l>
+						<l met="++--+" rhyme="a">
+							将军夜引
+							<rhyme>弓</rhyme>
+						</l>
+						<l met="+++--" rhyme="b">
+							平明寻白
+							<rhyme>羽</rhyme>
+						</l>
+						<l met="---++" rhyme="a">
+							没在石棱
+							<rhyme>中</rhyme>
+						</l>
+					</lg>
+					<signed>卢纶</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>塞下曲六首其三</title>
+					</head>
+					<lg rhyme="aaba" type="五绝仄起首句入韵">
+						<l met="---++" rhyme="a">
+							月黑雁飞
+							<rhyme>高</rhyme>
+						</l>
+						<l met="++--+" rhyme="a">
+							单于夜遁
+							<rhyme>逃</rhyme>
+						</l>
+						<l met="+++--" real="-++--" rhyme="b">
+							欲将轻骑
+							<rhyme>逐</rhyme>
+						</l>
+						<l met="---++" rhyme="a">
+							大雪满弓
+							<rhyme>刀</rhyme>
+						</l>
+					</lg>
+					<signed>卢纶</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>登鹳雀楼</title>
+					</head>
+					<lg rhyme="abcb" type="五绝平起首句不入韵">
+						<l met="+++--" real="-++--" rhyme="a">
+							迥临飞鸟
+							<rhyme>上</rhyme>
+						</l>
+						<l met="---++" real="+--++" rhyme="b">
+							高出世尘
+							<rhyme>间</rhyme>
+						</l>
+						<l met="--++-" real="+-++-" rhyme="c">
+							天势围平
+							<rhyme>野</rhyme>
+						</l>
+						<l met="++--+" rhyme="b">
+							河流入断
+							<rhyme>山</rhyme>
+						</l>
+					</lg>
+					<signed>畅当</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>新嫁娘词</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" real="---+-" rhyme="a">
+							三日入厨
+							<rhyme>下</rhyme>
+						</l>
+						<l met="++--+" real="---++" rhyme="b">
+							洗手作羹
+							<rhyme>汤</rhyme>
+						</l>
+						<l met="+++--" real="-++--" rhyme="c">
+							未谙姑食
+							<rhyme>性</rhyme>
+						</l>
+						<l met="---++" rhyme="b">
+							先遣小姑
+							<rhyme>尝</rhyme>
+						</l>
+					</lg>
+					<signed>王建</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>夜雪</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" real="--+--" rhyme="a">
+							已讶衾枕
+							<rhyme>冷</rhyme>
+						</l>
+						<l met="++--+" real="--+-+" rhyme="b">
+							复见窗户
+							<rhyme>明</rhyme>
+						</l>
+						<l met="+++--" real="-++--" rhyme="c">
+							夜深知雪
+							<rhyme>重</rhyme>
+						</l>
+						<l met="---++" real="+---+" rhyme="b">
+							时闻折竹
+							<rhyme>声</rhyme>
+						</l>
+					</lg>
+					<signed>白居易</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>悯农二首其二</title>
+					</head>
+					<lg rhyme="abcb" type="五绝平起首句不入韵">
+						<l met="+++--" real="++---" rhyme="a">
+							锄禾日当
+							<rhyme>午</rhyme>
+						</l>
+						<l met="---++" real="--+--" rhyme="b">
+							汗滴禾下
+							<rhyme>土</rhyme>
+						</l>
+						<l met="--++-" real="+++++" rhyme="c">
+							谁知盘中
+							<rhyme>餐</rhyme>
+						</l>
+						<l met="++--+" real="--++-" rhyme="b">
+							粒粒皆辛
+							<rhyme>苦</rhyme>
+						</l>
+					</lg>
+					<signed>李绅</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>江雪</title>
+					</head>
+					<lg rhyme="abcb" type="五绝平起首句不入韵">
+						<l met="+++--" real="++-+-" rhyme="a">
+							千山鸟飞
+							<rhyme>绝</rhyme>
+						</l>
+						<l met="---++" real="--++-" rhyme="b">
+							万径人踪
+							<rhyme>灭</rhyme>
+						</l>
+						<l met="--++-" real="+++-+" rhyme="c">
+							孤舟蓑笠
+							<rhyme>翁</rhyme>
+						</l>
+						<l met="++--+" real="--++-" rhyme="b">
+							独钓寒江
+							<rhyme>雪</rhyme>
+						</l>
+					</lg>
+					<signed>柳宗元</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>访隐者不遇</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" real="+--+-" rhyme="a">
+							松下问童
+							<rhyme>子</rhyme>
+						</l>
+						<l met="++--+" real="++---" rhyme="b">
+							言师采药
+							<rhyme>去</rhyme>
+						</l>
+						<l met="+++--" real="---+-" rhyme="c">
+							只在此山
+							<rhyme>中</rhyme>
+						</l>
+						<l met="---++" real="+--+-" rhyme="b">
+							云深不知
+							<rhyme>处</rhyme>
+						</l>
+					</lg>
+					<signed>贾岛</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>马诗</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" rhyme="a">
+							大漠沙如
+							<rhyme>雪</rhyme>
+						</l>
+						<l met="++--+" rhyme="b">
+							燕山月似
+							<rhyme>钩</rhyme>
+						</l>
+						<l met="+++--" rhyme="c">
+							何当金络
+							<rhyme>脑</rhyme>
+						</l>
+						<l met="---++" rhyme="b">
+							快走踏清
+							<rhyme>秋</rhyme>
+						</l>
+					</lg>
+					<signed>李贺</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>乐游原</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" real="---+-" rhyme="a">
+							向晚意不
+							<rhyme>适</rhyme>
+						</l>
+						<l met="++--+" real="+++-+" rhyme="b">
+							驱车登古
+							<rhyme>原</rhyme>
+						</l>
+						<l met="+++--" real="-++--" rhyme="c">
+							夕阳无限
+							<rhyme>好</rhyme>
+						</l>
+						<l met="---++" rhyme="b">
+							只是近黄
+							<rhyme>昏</rhyme>
+						</l>
+					</lg>
+					<signed>李商隐</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>春怨</title>
+					</head>
+					<lg rhyme="aaba" type="五绝仄起首句入韵">
+						<l met="---++" real="--+++" rhyme="a">
+							打起黄莺
+							<rhyme>儿</rhyme>
+						</l>
+						<l met="++--+" real="-++-+" rhyme="a">
+							莫教枝上
+							<rhyme>啼</rhyme>
+						</l>
+						<l met="+++--" rhyme="b">
+							啼时惊妾
+							<rhyme>梦</rhyme>
+						</l>
+						<l met="---++" rhyme="a">
+							不得到辽
+							<rhyme>西</rhyme>
+						</l>
+					</lg>
+					<signed>金昌绪</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>题玉泉溪</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" real="+--+-" rhyme="a">
+							红树醉秋
+							<rhyme>色</rhyme>
+						</l>
+						<l met="++--+" real="-+--+" rhyme="b">
+							碧溪弹夜
+							<rhyme>弦</rhyme>
+						</l>
+						<l met="+++--" rhyme="c">
+							佳期不可
+							<rhyme>再</rhyme>
+						</l>
+						<l met="---++" real="+--++" rhyme="b">
+							风雨杳如
+							<rhyme>年</rhyme>
+						</l>
+					</lg>
+					<signed>湘驿女子</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>幽恨诗</title>
+					</head>
+					<lg rhyme="abcb" type="五绝仄起首句不入韵">
+						<l met="--++-" real="-----" rhyme="a">
+							卜得上峡
+							<rhyme>日</rhyme>
+						</l>
+						<l met="++--+" real="+++-+" rhyme="b">
+							秋江风浪
+							<rhyme>多</rhyme>
+						</l>
+						<l met="+++--" real="++---" rhyme="c">
+							巴陵一夜
+							<rhyme>雨</rhyme>
+						</l>
+						<l met="---++" real="+--++" rhyme="b">
+							肠断木兰
+							<rhyme>歌</rhyme>
+						</l>
+					</lg>
+					<signed>安邑坊女</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>答人</title>
+					</head>
+					<lg rhyme="abcb" type="五绝平起首句不入韵">
+						<l met="+++--" real="-++--" rhyme="a">
+							偶来松树
+							<rhyme>下</rhyme>
+						</l>
+						<l met="---++" real="+--++" rhyme="b">
+							高枕石头
+							<rhyme>眠</rhyme>
+						</l>
+						<l met="--++-" real="+-+--" rhyme="c">
+							山中无历
+							<rhyme>日</rhyme>
+						</l>
+						<l met="++--+" real="+--++" rhyme="b">
+							寒尽不知
+							<rhyme>年</rhyme>
+						</l>
+					</lg>
+					<signed>太上隐者</signed>
 				</lg>
 			</lg>
 		</body>
