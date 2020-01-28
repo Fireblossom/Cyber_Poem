@@ -38,7 +38,7 @@
 							黄河入海
 							<rhyme>流</rhyme>
 						</l>
-						<l met="-++--" rhyme="c">
+						<l met="+++--" real="-++--" rhyme="c">
 							欲穷千里
 							<rhyme>目</rhyme>
 						</l>
@@ -62,7 +62,7 @@
 							春风花草
 							<rhyme>香</rhyme>
 						</l>
-						<l met="-++--" rhyme="c">
+						<l met="+++--" rhyme="c">
 							泥融飞燕
 							<rhyme>子</rhyme>
 						</l>
@@ -78,7 +78,7 @@
 						<title>听筝</title>
 					</head>
 					<lg rhyme="abcb" type="五绝平起首句不入韵">
-						<l met="-++--" real="+++--" rhyme="a">
+						<l met="+++--" rhyme="a">
 							鸣筝金粟
 							<rhyme>柱</rhyme>
 						</l>
@@ -134,7 +134,7 @@
 							哥舒夜带
 							<rhyme>刀</rhyme>
 						</l>
-						<l met="-++--" rhyme="b">
+						<l met="+++--" real="-++--" rhyme="b">
 							至今窥牧
 							<rhyme>马</rhyme>
 						</l>
@@ -150,7 +150,7 @@
 						<title>赋得古原草送别</title>
 					</head>
 					<lg rhyme="abcb" type="五绝平起首句不入韵">
-						<l met="-++--" real="+++--" rhyme="a">
+						<l met="+++--" rhyme="a">
 							离离原上
 							<rhyme>草</rhyme>
 						</l>
@@ -174,7 +174,7 @@
 						<title>弹琴</title>
 					</head>
 					<lg rhyme="abcb" type="五绝平起首句不入韵">
-						<l met="-++--" real="++-+-" rhyme="a">
+						<l met="+++--" real="++-+-" rhyme="a">
 							泠泠七弦
 							<rhyme>上</rhyme>
 						</l>
@@ -192,6 +192,86 @@
 						</l>
 					</lg>
 					<signed>刘长卿</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>寄赠王十将军承俊</title>
+					</head>
+					<lg rhyme="aabababa" type="五律平起首句入韵">
+						<l met="++--+" rhyme="a">
+							将军胆气
+							<rhyme>雄</rhyme>
+						</l>
+						<l met="---++" real="-+--+" rhyme="a">
+							臂悬两角
+							<rhyme>弓</rhyme>
+						</l>
+						<l met="--++-" real="+-++-" rhyme="b">
+							缠结青骢
+							<rhyme>马</rhyme>
+						</l>
+						<l met="++--+" real="---++" rhyme="a">
+							出入锦城
+							<rhyme>中</rhyme>
+						</l>
+						<l met="+++--" real="++---" rhyme="b">
+							时危未授
+							<rhyme>钺</rhyme>
+						</l>
+						<l met="---++" rhyme="a">
+							势屈难为
+							<rhyme>功</rhyme>
+						</l>
+						<l met="--++-" real="+--+-" rhyme="b">
+							宾客满堂
+							<rhyme>上</rhyme>
+						</l>
+						<l met="++--+" real="+++-+" rhyme="a">
+							何人高义
+							<rhyme>同</rhyme>
+						</l>
+					</lg>
+					<signed>杜甫</signed>
+				</lg>
+				<lg type="poem">
+					<head>
+						<title>七律长征</title>
+					</head>
+					<lg rhyme="abcbabcb" type="七律平起首句不入韵">
+						<l met="++--++-" real="++---+-" rhyme="a">
+							红军不怕远征
+							<rhyme>难</rhyme>
+						</l>
+						<l met="--++--+" rhyme="b">
+							万水千山只等
+							<rhyme>闲</rhyme>
+						</l>
+						<l met="--+++--" real="--+-+--" rhyme="c">
+							五岭逶迤腾细
+							<rhyme>浪</rhyme>
+						</l>
+						<l met="++---++" real="+++--++" rhyme="b">
+							乌蒙磅礴走泥
+							<rhyme>丸</rhyme>
+						</l>
+						<l met="++--++-" rhyme="a">
+							金沙水拍云崖
+							<rhyme>暖</rhyme>
+						</l>
+						<l met="--++--+" rhyme="b">
+							大渡桥横铁索
+							<rhyme>寒</rhyme>
+						</l>
+						<l met="--+++--" rhyme="c">
+							更喜岷山千里
+							<rhyme>雪</rhyme>
+						</l>
+						<l met="++---++" rhyme="b">
+							三军过后尽开
+							<rhyme>颜</rhyme>
+						</l>
+					</lg>
+					<signed>毛泽东</signed>
 				</lg>
 			</lg>
 		</body>
